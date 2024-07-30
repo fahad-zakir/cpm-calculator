@@ -1,5 +1,5 @@
 # CPM Calculator
-- https://cpmcalculator.netlify.app/
+https://cpmcalculator.netlify.app/
 
 ## Overview
 The CPM Calculator is a web application that helps users calculate the total cost of an advertising campaign, the number of impressions, or the Cost Per Mille (CPM). Users can input any two of these values, and the calculator will compute the third. The application features a modern, high-tech design with a user-friendly interface.
