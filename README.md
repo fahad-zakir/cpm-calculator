@@ -69,7 +69,7 @@ Feel free to fork the project, make enhancements, and submit pull requests. Cont
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or suggestions, please contact [your-email@example.com].
+For any questions or suggestions, please contact fahadzakir11@gmail.com.
 
 ---
 
