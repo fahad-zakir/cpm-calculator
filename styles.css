@@ -1,71 +1,89 @@
- body {
-     background: linear-gradient(135deg, #1f1c2c, #928dab);
-     font-family: 'Roboto', sans-serif;
-     color: white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-     margin: 0;
- }
+/* styles.css */
 
- .calculator-container {
-     background: rgba(0, 0, 0, 0.7);
-     padding: 20px;
-     border-radius: 10px;
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-     width: 400px;
-     text-align: center;
- }
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #2e2e2e, #4a4a4a);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
- h1 {
-     color: #e74c3c;
- }
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
 
- label {
-     display: block;
-     margin: 10px 0 5px;
- }
+h1 {
+    text-align: center;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
 
- input[type="number"] {
-     width: 96%;
-     padding: 10px;
-     margin: 10px 0;
-     border: none;
-     border-radius: 5px;
- }
+.instructions {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
- .button-group {
-     display: flex;
-     justify-content: space-between;
-     margin-top: 20px;
- }
+.form-group {
+    margin-bottom: 20px;
+}
 
- button {
-     padding: 10px 20px;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: background 0.3s;
- }
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
 
- #startOver {
-     background: #e74c3c;
- }
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+}
 
- #startOver:hover {
-     background: #c0392b;
- }
-
- #calculate {
-     background: #27ae60;
- }
-
- #calculate:hover {
-     background: #1e8449;
- }
+input[type="text"]::placeholder {
+    color: #999;
+}
 
 .error {
-    color: #e74c3c;
-    margin-top: 20px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.start-over {
+    background: #ff4c4c;
+    color: black;
+}
+
+.calculate {
+    background: #4caf50;
+    color: black;
+}
+
+.button:hover {
+    opacity: 0.8;
 }
